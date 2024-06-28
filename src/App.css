@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+************ App.css *************
+/* src/App.css */
+
+/* Estilos para el contenedor principal */
+.App {
+  text-align: center;
+}
+
+/* Estilos para el encabezado */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Estilos para el componente padre */
+.parent {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+}
+
+/* Estilos para el componente hijo */
+.child {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #21a0a0;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+}
